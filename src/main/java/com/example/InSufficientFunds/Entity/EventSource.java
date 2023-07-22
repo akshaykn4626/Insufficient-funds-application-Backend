@@ -26,7 +26,6 @@ public class EventSource  extends Auditable<String> {
     @NotBlank(message = "BusinessKey must not be null")
 	private String businessKey;
     
-    @NotBlank(message = "application must not be null")
 	private String application;
 	
     @NotBlank(message = "Comments must not be null")
@@ -47,7 +46,6 @@ public class EventSource  extends Auditable<String> {
     @NotBlank(message = "AccountShortName must not be null")
 	private String accountShortName;
 	
-    @NotBlank(message = "debitAccountCcy must not be null")
 	private String debitAccountCcy;
 	
     @NotBlank(message = "PaymentDetails1 must not be null")
@@ -65,7 +63,6 @@ public class EventSource  extends Auditable<String> {
     @NotBlank(message = "Verified must not be null")
 	private String verified;
 	
-    @NotBlank(message = "discrepancyReason must not be null")
 	private String discrepancyReason;
 	
     @NotBlank(message = "CustomerNumber must not be null")
@@ -74,16 +71,13 @@ public class EventSource  extends Auditable<String> {
     @NotBlank(message = "CustomerName must not be null")
 	private String customerName;
 	
-    @NotBlank(message = "accountOfficer must not be null")
 	private String accountOfficer;
 	
-    @NotBlank(message = "altAccountOfficer must not be null")
 	private String altAccountOfficer;
 	
 	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
 	private LocalDateTime dateMailSent;
 	
-    @NotBlank(message = "Override must not be null") 
 	private String override;
 	
     @NotBlank(message = "BuName must not be null") 

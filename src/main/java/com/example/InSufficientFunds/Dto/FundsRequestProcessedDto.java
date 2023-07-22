@@ -24,8 +24,8 @@ public class FundsRequestProcessedDto extends Auditable<String>  {
 	    @NotBlank(message = "CustomerName must not be null")
 		private String customerName;
 		
-	    @NotBlank(message = "AccountNumber must not be null")
-	    private String accountNumber;
+	    @NotBlank(message = "DebitAccountNumber must not be null")
+	    private String debitAccountNumber;
 	    
 	    @NotBlank(message = "TransactionCurrency must not be null")
 		private String transactionCurrency;

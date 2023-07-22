@@ -83,7 +83,6 @@ public class EventSourceDto  extends Auditable<String> {
 	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
 	private LocalDateTime dateMailSent;
 	
-    @NotBlank(message = "Override must not be null") 
 	private String override;
 	
     @NotBlank(message = "BuName must not be null") 
